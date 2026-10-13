@@ -1,0 +1,6 @@
+{"dependencies": [
+ {"fileName": "express-4.18.2.tgz", "filePath": "/src/node_modules/express",
+  "vulnerabilities": [
+   {"name": "CVE-2000-0000", "severity": "MEDIUM", "cvssv3": {"baseScore": 5.3, "baseSeverity": "MEDIUM"},
+    "description": "Example medium-severity issue (synthetic sample)."}]}
+]}

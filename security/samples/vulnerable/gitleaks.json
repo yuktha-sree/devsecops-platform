@@ -1,0 +1,4 @@
+[
+ {"Description": "AWS Access Key", "StartLine": 12, "File": "config/aws.js", "RuleID": "aws-access-token",
+  "Secret": "FAKE-SECRET-FOR-TESTING-ONLY", "Match": "accessKey = FAKE-SECRET-FOR-TESTING-ONLY"}
+]

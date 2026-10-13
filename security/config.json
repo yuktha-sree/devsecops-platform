@@ -1,0 +1,14 @@
+{
+  "scoring": {
+    "start": 100,
+    "min": 0,
+    "weights": { "Critical": 20, "High": 10, "Medium": 4, "Low": 1 }
+  },
+  "gate": {
+    "block_on_critical": true,
+    "block_on_secrets": true,
+    "max_high": 5,
+    "min_score": 70,
+    "require_all_scanners": true
+  }
+}

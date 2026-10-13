@@ -1,0 +1,11 @@
+{"Results": [
+ {"Target": "node:16-alpine (alpine 3.16.2)", "Class": "os-pkgs", "Type": "alpine",
+  "Vulnerabilities": [
+   {"VulnerabilityID": "CVE-2022-37434", "PkgName": "zlib", "InstalledVersion": "1.2.12-r1", "FixedVersion": "1.2.12-r2",
+    "Severity": "CRITICAL", "Title": "zlib: heap-based buffer over-read or buffer overflow in inflate",
+    "Description": "zlib through 1.2.12 has a heap-based buffer over-read or buffer overflow in inflate."},
+   {"VulnerabilityID": "CVE-2022-28391", "PkgName": "busybox", "InstalledVersion": "1.35.0-r17",
+    "Severity": "LOW", "Title": "busybox: remote attackers may execute arbitrary code in netstat",
+    "Description": "BusyBox through 1.35.0 allows remote attackers to execute arbitrary code if netstat is used."}]},
+ {"Target": "Node.js", "Class": "lang-pkgs", "Type": "node-pkg", "Vulnerabilities": null}
+]}

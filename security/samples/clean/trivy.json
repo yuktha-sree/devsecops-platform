@@ -1,0 +1,6 @@
+{"Results": [
+ {"Target": "node:20-alpine (alpine 3.19.0)", "Class": "os-pkgs", "Type": "alpine",
+  "Vulnerabilities": [
+   {"VulnerabilityID": "CVE-2000-0001", "PkgName": "busybox", "InstalledVersion": "1.36.1-r2",
+    "Severity": "LOW", "Title": "example low issue", "Description": "Synthetic sample."}]}
+]}

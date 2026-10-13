@@ -1,0 +1,15 @@
+{
+  "name": "techshield-platform",
+  "version": "2.1.0",
+  "private": true,
+  "description": "TechShield DevSecOps platform: backend API + React dashboard + security scanners, deployed on Vercel",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "setup": "node scripts/setup-env.js",
+    "doctor": "node scripts/doctor.js",
+    "dev": "node scripts/dev.js",
+    "vercel:env": "node scripts/vercel-env.js",
+    "test": "npm --prefix backend test && node scripts/tests/scripts.test.js"
+  }
+}

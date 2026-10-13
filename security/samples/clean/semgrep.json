@@ -1,0 +1,5 @@
+{"results": [
+ {"check_id": "javascript.express.security.audit.express-cookie-settings", "path": "server.js",
+  "start": {"line": 8}, "end": {"line": 8},
+  "extra": {"message": "Cookie is missing the secure flag.", "severity": "INFO", "metadata": {}}}
+], "errors": []}

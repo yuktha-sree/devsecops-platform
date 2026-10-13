@@ -1,0 +1,11 @@
+*.log
+*.pyc
+.env
+.env.local
+.vercel/
+__pycache__/
+deploy/vercel/*.vercel.env
+dist/
+node_modules/
+reports/
+security/reports/

@@ -1,0 +1,4 @@
+{
+  "_help": "Mark known false positives here. A finding matches when ALL keys in an entry match. Keys: id, rule_id, cve, file_contains. Always give a reason.",
+  "suppressions": []
+}
